@@ -1,5 +1,5 @@
 {% set name = "sectionate" %}
-{% set version = "0.3.3" %}
+{% set version = "0.3.4" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/sectionate/sectionate-{{ version }}.tar.gz
-  sha256: b855b091e0c5ac56ab09ec96822ad46ee2ec89bf3b6b3aecb53cbe16dbc36ecb
+  sha256: fb776bd9108dc056967dbb13bbc4b2dd7b240fc77d66ecd1ddcee987ec7a7320
 
 build:
   noarch: python
